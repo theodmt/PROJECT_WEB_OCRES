@@ -1,10 +1,17 @@
 import react from 'react';
+import Modal from '../components/Modal/Modal';
 
 function Home() {
     return (
-    <div className='home'>
-        <h1>Home</h1>
-    </div>
+    <>
+        <Modal />
+
+        <div className='home'>
+            
+            <h1>Home</h1>
+        </div>
+    </>
+    
     );
 }
 
