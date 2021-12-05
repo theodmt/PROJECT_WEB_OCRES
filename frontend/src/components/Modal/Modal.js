@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import * as AiIcons from 'react-icons/ai';
 import "./Modal.css";
 
 function Modal() {
@@ -37,11 +38,12 @@ function Modal() {
                 and more recently with desktop publishing software like Aldus PageMaker 
                 including versions of Lorem Ipsum.
                 </p>
-                <button className="close-modal" onClick={toggleModal}>CLOSE</button>
+                <AiIcons.AiOutlineClose className="close-modal" onClick={toggleModal}/>
             </div>
         </div>
         )}
-        
+
+        <p>ldkqfkqdnfnqnknqsknknkq</p>
 
         </>
     );
