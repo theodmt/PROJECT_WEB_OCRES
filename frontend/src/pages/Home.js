@@ -1,18 +1,27 @@
-import react from 'react';
-import Modal from '../components/Modal/Modal';
+import React from "react";
 
-function Home() {
-    return (
-    <>
-        <Modal />
+export default class Home extends React.Component{
 
-        <div className='home'>
-            
-            <h1>Home</h1>
-        </div>
-    </>
-    
-    );
+
+    render(){
+
+        return(
+            <main class="home_main">
+                <img class="logo_home"src="Logo_Home.png" alt="logo_home"/>
+
+                <div class="home_boutton">
+                    <a href="#" class="home_boutton_ongletchimie">
+                    </a>
+                    <a href="#" class="home_boutton_ongletmaths">
+                    </a>
+                    <a href="#" class="home_boutton_ongletmethodologie">
+                    </a>
+                    <a href="#" class="home_boutton_ongletphysique">
+                    </a>
+                    <a href="#" class="home_boutton_ongletprogrammation">
+                    </a>
+                </div>
+            </main>
+        )
+    }
 }
-
-export default Home;

@@ -15,3 +15,70 @@
   justify-content: center;
   font-size: 3rem;
 }
+
+/* --------------------------------------------------- Home ------------------------------------------------------ */
+.home_main {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #46C2BA;
+}
+
+.home_boutton
+{
+  position: absolute;
+  border:1px solid black;
+  display: flex;
+  width: 440px;
+  height: 600px;
+}
+.home_boutton_ongletchimie{
+  width: 80px;
+  height: 80px;
+  margin-top: 216.5px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
+.home_boutton_ongletmaths{
+  width: 80px;
+  height: 80px;
+  margin-top: 139px;
+  margin-left: -11px;
+  border-radius: 50%;
+  background-color: red;
+}
+.home_boutton_ongletmethodologie{
+  width: 80px;
+  height: 80px;
+  margin-left: 22px;
+  margin-top: 105px;
+  border-radius: 50%;
+  background-color: red;
+}
+.home_boutton_ongletphysique{
+  width: 80px;
+  height: 80px;
+  margin-left: 22px;
+  margin-top: 139px;
+  border-radius: 50%;
+  background-color: red;
+}
+.home_boutton_ongletprogrammation{
+  width: 80px;
+  height: 80px;
+  margin-top: 216.5px;
+  margin-left: -11px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.logo_home
+{
+  width: 600px;
+  left:250px;
+  top:160px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */

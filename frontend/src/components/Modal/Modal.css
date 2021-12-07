@@ -3,15 +3,26 @@ body.active-modal {
 }
 
 .btn-modal {
+    margin-left: 20px;
     padding: 10px 20px;
     display: block;
-    margin: 100px auto 0;
     font-size: 18px;
+    width: 150px;
+    height: 40px;
+    border-radius: 100px;
 }
 
+.nav_bar_boutton_container
+{
+    display:flex;
+    height: 50px;
+    position:absolute;
+    top:-10px;
+    right: 8%;
+}
 .modal, .overlay {
     width: 100vw;
-    height: 100vh;
+    height: 125vh;
     top: 0;
     left: 0;
     right: 0;
@@ -28,7 +39,6 @@ body.active-modal {
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 1.4;
-    background: #f1f1f1;
     padding: 14px 28px;
     border-radius: 3px;
     max-width: 600px;
@@ -37,9 +47,154 @@ body.active-modal {
 
 .close-modal {
     position: absolute;
-    top: 10px;
-    right: 10px;
-
+    top: 30px;
+    right: 50px;
+    background-color: black;
     width: 30px;
     height: 30px;
+}
+
+.inscriptionpopup
+{
+	background-color: white;
+	width: 400px;
+	height: 600px;
+	border-radius: 50px;
+	display: flex;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	flex-direction: column;
+	font-family: Arial;
+
+}
+
+.inscriptionpopup h1
+{
+	font-size: 35px;
+    margin-top: 25px;
+}
+
+.inscriptionpopup h1,p,a
+{
+	text-align: center;
+	text-decoration: none;
+}
+
+.inscriptionpopup p,a
+{
+	font-size: 15px;
+}
+
+.inscriptionpopup input, button
+{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	margin-top: 30px;
+	width: 300px;
+	height: 50px;
+	padding-left: 10px;
+	border: none;
+	font-size: 20px;
+}
+
+.inscriptionpopup input
+{
+	background-color: #F1F1F1;
+	color: #B4B4B4;
+}
+
+.inscriptionpopup button
+{
+	background-color: #46C2BA;
+	color: white;
+}
+
+.dejauncompte
+{
+	margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+/*connexion*/
+
+.connectezvous
+{
+	color: #46C2BA;
+    margin-bottom: 20px;
+}
+
+
+.connexionpopup
+{
+	background-color: white;
+	width: 400px;
+	height: 500px;
+	border-radius: 50px;
+	display: flex;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	flex-direction: column;
+	font-family: Arial;
+
+}
+
+.connexionpopup h1
+{
+	font-size: 35px;
+    margin-top: 25px;
+}
+
+.connexionpopup h1,p,a
+{
+	text-align: center;
+	text-decoration: none;
+}
+
+.connexionpopup p,a
+{
+	font-size: 20px;
+}
+
+.connexionpopup input, button
+{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	margin-top: 30px;
+	width: 300px;
+	height: 50px;
+	padding-left: 10px;
+	border: none;
+	font-size: 20px;
+}
+
+.connexionpopup input
+{
+	background-color: #F1F1F1;
+	color: #B4B4B4;
+}
+
+.connexionpopup button
+{
+	background-color: #46C2BA;
+	color: white;
+}
+
+.pasencoredecompte
+{
+	margin-top: 30px;
+
+}
+
+.motdepasseoublié
+{
+	margin-top: 30px;
+	color: black;
+}
+.inscrivezvous
+{
+	color: #46C2BA;
 }
