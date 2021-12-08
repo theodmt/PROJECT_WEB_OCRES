@@ -17,6 +17,62 @@
 }
 
 /* --------------------------------------------------- Home ------------------------------------------------------ */
+.title_ongletchimie {
+  display: none;
+}
+
+.title_ongletmaths {
+  display: none;
+}
+
+.title_ongletmethodologie {
+  display: none;
+}
+
+.title_ongletphysique {
+  display: none;
+}
+
+.title_ongletprogrammation {
+  display: none;
+}
+
+
+
+
+ .home_boutton_ongletchimie a :hover .title_ongletchimie{
+  display: block;
+  
+  background-color: green;
+  
+}
+
+.home_boutton_ongletmaths :hover .title_ongletmaths {
+  display: block;
+  background-color: green;
+}
+
+.home_boutton_ongletmethodologie:hover .title_ongletmethodologie {
+  display: block;
+  background-color: green;
+}
+
+.home_boutton_ongletphysique:hover .title_ongletphysique {
+  display: block;
+  background-color: green;
+}
+
+.home_boutton_ongletprogrammation a :hover .title_ongletprogrammation {
+  display: block;
+  background-color: green;
+}
+
+
+
+
+
+
+
 .home_main {
   display: flex;
   height: 90vh;
