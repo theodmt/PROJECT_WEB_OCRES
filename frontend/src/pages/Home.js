@@ -10,20 +10,21 @@ export default class Home extends React.Component{
                 <img class="logo_home"src="Logo_Home.png" alt="logo_home"/>
 
                 <div class="home_boutton">
-                    <p class="title_ongletchimie">Chimie</p>
+                    
                     <a href="#" class="home_boutton_ongletchimie">
+                    <p class="onglet">Chimie</p>
                     </a>
-                    <p class="title_ongletmaths">Mathématiques</p>
                     <a href="#" class="home_boutton_ongletmaths">
+                    <p class="onglet">Maths</p>
                     </a>
-                    <p class="title_ongletmethodologie">Méthodologie</p>
                     <a href="#" class="home_boutton_ongletmethodologie">
+                    <p class="onglet">Méthodologie</p>
                     </a>
-                    <p class="title_ongletphysique">Physique</p>
                     <a href="#" class="home_boutton_ongletphysique">
+                    <p class="onglet">Physique</p>
                     </a>
-                    <p class="title_ongletprogrammation">Programmation</p>
                     <a href="#" class="home_boutton_ongletprogrammation">
+                    <p class="onglet">Programmation</p>
                     </a>
                 </div>
             </main>

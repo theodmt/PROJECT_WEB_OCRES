@@ -17,56 +17,6 @@
 }
 
 /* --------------------------------------------------- Home ------------------------------------------------------ */
-.title_ongletchimie {
-  display: none;
-}
-
-.title_ongletmaths {
-  display: none;
-}
-
-.title_ongletmethodologie {
-  display: none;
-}
-
-.title_ongletphysique {
-  display: none;
-}
-
-.title_ongletprogrammation {
-  display: none;
-}
-
-
-
-
- .home_boutton_ongletchimie a :hover .title_ongletchimie{
-  display: block;
-  
-  background-color: green;
-  
-}
-
-.home_boutton_ongletmaths :hover .title_ongletmaths {
-  display: block;
-  background-color: green;
-}
-
-.home_boutton_ongletmethodologie:hover .title_ongletmethodologie {
-  display: block;
-  background-color: green;
-}
-
-.home_boutton_ongletphysique:hover .title_ongletphysique {
-  display: block;
-  background-color: green;
-}
-
-.home_boutton_ongletprogrammation a :hover .title_ongletprogrammation {
-  display: block;
-  background-color: green;
-}
-
 
 
 
@@ -136,5 +86,93 @@
   left:250px;
   top:160px;
 }
+
+.home_boutton_ongletchimie .onglet{
+  position:relative;
+  bottom:30px;
+  left:0px;
+  display: none;
+  }
+
+
+.home_boutton_ongletchimie:hover .onglet {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 180px;
+  color: white;
+  font-size: 28px;
+}
+
+.home_boutton_ongletmaths .onglet{
+  position:relative;
+  bottom:30px;
+  left:0px;
+  display: none;
+  }
+
+
+.home_boutton_ongletmaths:hover .onglet {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 190px;
+  color: white;
+  font-size: 28px;
+}
+
+.home_boutton_ongletmethodologie .onglet{
+  position:relative;
+  bottom:30px;
+  left:0px;
+  display: none;
+  }
+
+
+.home_boutton_ongletmethodologie:hover .onglet {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 140px;
+  color: white;
+  font-size: 28px;
+}
+
+.home_boutton_ongletphysique .onglet{
+  position:relative;
+  bottom:30px;
+  left:0px;
+  display: none;
+  }
+
+
+.home_boutton_ongletphysique:hover .onglet {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 165px;
+  color: white;
+  font-size: 28px;
+}
+
+.home_boutton_ongletprogrammation .onglet{
+  position:relative;
+  bottom:30px;
+  left:0px;
+  display: none;
+  }
+
+
+.home_boutton_ongletprogrammation:hover .onglet {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 130px;
+  color: white;
+  font-size: 28px;
+}
+
+
+
 
 /* --------------------------------------------------------------------------------------------------------------- */
