@@ -21,9 +21,12 @@ function Navbar() {
                 <Link to="#" className="menu-bars">
                     <FaIcons.FaBars onClick={showSidebar}/>
                 </Link>
-                <div class="nav_bar_boutton_container">
-                <ModalInscription />
-                <ModalConnexion />
+                <div class="nav_bar_container">
+                    <h1 class="etudiantparticulier">Etudiant particulier</h1>
+                    <div class="nav_bar_boutton_container">  
+                        <ModalInscription />
+                        <ModalConnexion />
+                    </div>
                 </div>
             </div>
             <nav className={sidebar ? "nav-menu active" : "nav-menu"}>

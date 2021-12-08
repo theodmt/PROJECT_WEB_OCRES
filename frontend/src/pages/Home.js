@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default class Home extends React.Component{
 
@@ -11,21 +12,21 @@ export default class Home extends React.Component{
 
                 <div class="home_boutton">
                     
-                    <a href="#" class="home_boutton_ongletchimie">
+                    <Link to="#" class="home_boutton_ongletchimie">
                     <p class="onglet">Chimie</p>
-                    </a>
-                    <a href="#" class="home_boutton_ongletmaths">
+                    </Link>
+                    <Link to="#" class="home_boutton_ongletmaths">
                     <p class="onglet">Maths</p>
-                    </a>
-                    <a href="#" class="home_boutton_ongletmethodologie">
+                    </Link>
+                    <Link to="#" class="home_boutton_ongletmethodologie">
                     <p class="onglet">Méthodologie</p>
-                    </a>
-                    <a href="#" class="home_boutton_ongletphysique">
+                    </Link>
+                    <Link to="#" class="home_boutton_ongletphysique">
                     <p class="onglet">Physique</p>
-                    </a>
-                    <a href="#" class="home_boutton_ongletprogrammation">
+                    </Link>
+                    <Link to="#" class="home_boutton_ongletprogrammation">
                     <p class="onglet">Programmation</p>
-                    </a>
+                    </Link>
                 </div>
             </main>
         )
