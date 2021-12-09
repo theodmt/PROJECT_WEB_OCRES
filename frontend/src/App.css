@@ -219,3 +219,13 @@
   height:35px;
   margin-bottom: 10px;
 }
+
+/* --------------------------------------- chimie --------------------------- */
+
+
+.chimie
+{
+  width: 100px;
+  height: 500px;
+  background-color: red;
+}
