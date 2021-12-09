@@ -16,16 +16,16 @@ export default class Home extends React.Component{
                     <Link to="/Chimie" class="home_boutton_ongletchimie">
                     <p class="onglet">Chimie</p>
                     </Link>
-                    <Link to="/Avis" class="home_boutton_ongletmaths">
+                    <Link to="/Maths" class="home_boutton_ongletmaths">
                     <p class="onglet">Maths</p>
                     </Link>
-                    <Link to="#" class="home_boutton_ongletmethodologie">
+                    <Link to="/Methodologie" class="home_boutton_ongletmethodologie">
                     <p class="onglet">Méthodologie</p>
                     </Link>
-                    <Link to="#" class="home_boutton_ongletphysique">
+                    <Link to="/Physique" class="home_boutton_ongletphysique">
                     <p class="onglet">Physique</p>
                     </Link>
-                    <Link to="#" class="home_boutton_ongletprogrammation">
+                    <Link to="/Programmation" class="home_boutton_ongletprogrammation">
                     <p class="onglet">Programmation</p>
                     </Link>
                 </div>

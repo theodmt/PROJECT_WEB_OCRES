@@ -8,7 +8,10 @@ import Products from './pages/Products'
 import Basdepage from './components/Modal/Basdepage.js';
 
 import Chimie from './pages/Chimie';
-import Avis from './pages/Avis';
+import Maths from './pages/Maths';
+import Methodologie from './pages/Methodologie';
+import Physique from './pages/Physique';
+import Programmation from './pages/Programmation';
 import Nosprofils from './pages/Nosprofils';
 
 
@@ -18,13 +21,16 @@ function App() {
     <Router>
       <Navbar />
       <div class="page">
-        <Routes>
-          <Route path='/' exact element={<Home/>} />
-          <Route path='/reports' element={<Reports/>} />
-          <Route path='/products' element={<Products/>} />
-          <Route path='/Chimie' element={<Chimie/>} />
-          <Route path='/Avis' element={<Avis/>} />
-          <Route path='/Nosprofils' element={<Nosprofils/>} />
+      <Routes>
+        <Route path='/' exact element={<Home/>} />
+        <Route path='/Nosprofils' element={<Nosprofils/>} />
+
+        <Route path='/Chimie' element={<Chimie/>} />
+        <Route path='/Maths' element={<Maths/>} />
+        <Route path='/methodologie' element={<Methodologie/>} />
+        <Route path='/Physique' element={<Physique/>} />
+        <Route path='/Programmation' element={<Programmation/>} />
+
         </Routes>
         </div>
       <Basdepage />
