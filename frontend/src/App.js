@@ -7,6 +7,9 @@ import Reports from './pages/Reports'
 import Products from './pages/Products'
 import Basdepage from './pages/Basdepage.js';
 
+import Chimie from './pages/Chimie';
+import Avis from './pages/Avis';
+
 
 function App() {
   return (
@@ -17,6 +20,8 @@ function App() {
         <Route path='/' exact element={<Home/>} />
         <Route path='/reports' element={<Reports/>} />
         <Route path='/products' element={<Products/>} />
+        <Route path='/Chimie' element={<Chimie/>} />
+        <Route path='/Avis' element={<Avis/>} />
       </Routes>
       <Basdepage />
     </Router>

@@ -1,11 +1,11 @@
 import react from 'react';
 
-function Home() {
+function Avis() {
     return (
     <>
         
 
-        <div className='home'>
+        <div className='avis'>
             
             <h1>Home</h1>
         </div>
@@ -14,4 +14,4 @@ function Home() {
     );
 }
 
-export default Home; 
+export default Avis; 

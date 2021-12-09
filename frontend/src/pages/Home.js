@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 export default class Home extends React.Component{
 
 
@@ -12,10 +13,10 @@ export default class Home extends React.Component{
 
                 <div class="home_boutton">
                     
-                    <Link to="#" class="home_boutton_ongletchimie">
+                    <Link to="/Chimie" class="home_boutton_ongletchimie">
                     <p class="onglet">Chimie</p>
                     </Link>
-                    <Link to="#" class="home_boutton_ongletmaths">
+                    <Link to="/Avis" class="home_boutton_ongletmaths">
                     <p class="onglet">Maths</p>
                     </Link>
                     <Link to="#" class="home_boutton_ongletmethodologie">
