@@ -26,13 +26,6 @@ export const SidebarData = [
     },
 
     {
-        title: "Méthodologie",
-        path: "/methodologie",
-        icon: <AiIcons.AiOutlineTool />,
-        cName: "nav-text"
-    },
-
-    {
         title: "Nos cours",
         path: "/",
         cName: "nav-text-title"
