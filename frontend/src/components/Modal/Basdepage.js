@@ -2,9 +2,6 @@ import React from "react";
 
 function Basdepage() {
 
-
-   
-
         return(
         <article class="basdepage_container">
             <article class="basdepage_text">

@@ -219,13 +219,79 @@
   height:35px;
   margin-bottom: 10px;
 }
+/*-------------------------------------- Nosprofils --------------------------*/
+
+.nosprofils
+{
+  height: 220vh;
+  color:white;
+}
+
+.nosprofils h1
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 300px;
+}
+.profil_container
+{
+  margin-top: 40px;
+  width: 700px ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profil_entete
+{
+  display: flex;
+}
+
+.infos_profil
+{
+  margin-left: 35px;
+}
+
+.infos_profil h2{
+  margin: 6px;
+}
+
+.photo_profil
+{
+  margin-top: 3px;
+  width:145px;
+  height:145px;
+  border-radius: 100px;
+}
+
+.parcours_container
+{
+  margin-top: 20px;
+  width:100%;
+}
+
+.parcours_container p{
+  margin-top: 10px;
+}
+.parcours_content
+{
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+
 
 /* --------------------------------------- chimie --------------------------- */
 
 
 .chimie
 {
-  width: 100px;
-  height: 500px;
-  background-color: red;
+  
+  height: 90vh;
+  background-color: #46C2BA;
+}
+
+
+.page 
+{
+  background-color: #46C2BA;
 }
