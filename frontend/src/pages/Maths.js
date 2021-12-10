@@ -1,5 +1,6 @@
 import react from 'react';
 import { Link } from 'react-router-dom';
+import Widget1 from './Widget1';
 
 function Maths() {
     return (
@@ -31,6 +32,7 @@ function Maths() {
                 <p href="#">Bac +2</p>
             </Link>
         </articile>
+        <Widget1 />
     </div>
     );
 }

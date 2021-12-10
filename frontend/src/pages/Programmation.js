@@ -1,5 +1,6 @@
 import react from 'react';
 import { Link } from 'react-router-dom';
+import Widget2 from './Widget2';
 
 function Programmation() {
     return (
@@ -31,6 +32,7 @@ function Programmation() {
                 <p href="#">Javascript</p>
             </Link>
         </articile>
+        <Widget2 />
     </div>
     );
 }

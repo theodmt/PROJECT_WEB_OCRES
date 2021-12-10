@@ -8,7 +8,7 @@ export const SidebarData = [
     {
         title: "A propos de nous",
         path: "/",
-        cName: "nav-text-title"
+        cName: "nav-text-title t1"
     },
 
     {
@@ -27,13 +27,13 @@ export const SidebarData = [
 
     {
         title: "Nos cours",
-        path: "/",
-        cName: "nav-text-title"
+        path: "/Tarifs",
+        cName: "nav-text-title t2"
     },
 
     {
         title: "Cours et tarifs",
-        path: "/coursettarifs",
+        path: "/Tarifs",
         icon: <AiIcons.AiFillEuroCircle />,
         cName: "nav-text"
     },
@@ -47,27 +47,27 @@ export const SidebarData = [
 
     {
         title: "Disponibilités",
-        path: "/disponibilités",
+        path: "/Disponibilite",
         icon: <FaIcons.FaCalendarAlt />,
         cName: "nav-text"
     },
 
     {
         title: "Avis",
-        path: "/",
-        cName: "nav-text-title"
+        path: "/avis",
+        cName: "nav-text-title t3"
     },
 
     {
         title: "Voir les avis",
-        path: "/voiravis",
+        path: "/avis",
         icon: <FaIcons.FaCommentDots />,
         cName: "nav-text"
     },
 
     {
         title: "Laisser un avis",
-        path: "/laisseravis",
+        path: "/Laisseravis",
         icon: <AiIcons.AiOutlineForm />,
         cName: "nav-text"
     }

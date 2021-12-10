@@ -1,5 +1,6 @@
 import react from 'react';
 import { Link } from 'react-router-dom';
+import Widget3 from './Widget3';
 
 function Physique() {
     return (
@@ -31,6 +32,7 @@ function Physique() {
                 <p href="#">Bac +2</p>
             </Link>
         </articile>
+        <Widget3 />
     </div>
     );
 }

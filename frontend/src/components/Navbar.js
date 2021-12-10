@@ -8,6 +8,7 @@ import { IconContext } from 'react-icons'
 import "../components/Modal/Modal.css";
 import ModalInscription from './Modal/ModalInscription';
 import ModalConnexion from './Modal/ModalConnexion';
+import PrendreCours from './Modal/PrendreCours';
 
 function Navbar() {
     const [sidebar, setSidebar] = useState(false)
@@ -26,6 +27,7 @@ function Navbar() {
                     <div class="nav_bar_boutton_container">  
                         <ModalInscription />
                         <ModalConnexion />
+                        <PrendreCours />
                     </div>
                 </div>
             </div>

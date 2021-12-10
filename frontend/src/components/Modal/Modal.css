@@ -106,7 +106,7 @@ body.active-modal {
 .inscriptionpopup input
 {
 	background-color: #F1F1F1;
-	color: #B4B4B4;
+	color: black;
 }
 
 .inscriptionpopup button
@@ -178,7 +178,7 @@ body.active-modal {
 .connexionpopup input
 {
 	background-color: #F1F1F1;
-	color: #B4B4B4;
+	color: black;
 }
 
 .connexionpopup button
@@ -201,4 +201,96 @@ body.active-modal {
 .inscrivezvous
 {
 	color: #46C2BA;
+}
+
+
+/* --------------------------------------- modal cgu --------------------------- */
+
+
+.cgu
+{
+	background-color: white;
+	width: 400px;
+	height: 600px;
+	border-radius: 50px;
+	display: flex;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	flex-direction: column;
+	font-family: Arial;
+	margin-top: -480px;
+	margin-left: -50px;
+
+}
+
+.cgu h1
+{
+	font-size: 25px;
+    margin-top: 25px;
+	padding-bottom: 20px;
+}
+
+.cgu h1,p,a
+{
+	text-align: center;
+	text-decoration: none;
+}
+
+.cgu p
+{
+	font-size: 10px;
+}
+
+.cgu a
+{
+	font-size: 20px;
+}
+
+
+/* --------------------------------------- PrendreCours --------------------------- */
+
+label {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+label {
+    display: block;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+.courspopup {
+	height: 600px;
+}
+
+@media (max-width: 40em) {
+	.prendreuncours {
+	  display: none;
+	}
+  }
+
+/* --------------------------------------- PrendreCours2 --------------------------- */
+
+  .prendreuncours2 {
+	background: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	color: white;
+	width: 90px;
+}
+
+.prendreuncours2:hover {
+  color: black;
+  text-decoration: underline;
 }

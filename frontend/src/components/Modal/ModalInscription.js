@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import * as AiIcons from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 import "./Modal.css";
+import ModalCGU from './ModalCGU';
 
 
 function ModalInscription() {
@@ -37,7 +39,8 @@ function ModalInscription() {
                 <button class="inscription">Inscription</button>
                 <p class="dejauncompte">Vous avez déjà un compte ?</p>
                 <a class="connectezvous" href="#">Connectez-vous</a>
-                <p> En vous inscrivant vous acceptez nos <a href="#">conditions générales d'utilisation</a></p>
+                
+                <ModalCGU />
 
             </main>
                 <AiIcons.AiFillCloseSquare className="close-modal" onClick={toggleModal}/>

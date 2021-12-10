@@ -13,6 +13,11 @@ import Methodologie from './pages/Methodologie';
 import Physique from './pages/Physique';
 import Programmation from './pages/Programmation';
 import Nosprofils from './pages/Nosprofils';
+import Avis from './pages/Avis';
+import Tarifs from './pages/Tarifs';
+import Disponibilite from './pages/Disponibilite';
+import Localisation from './pages/Localisation';
+import Laisseravis from './pages/Laisseravis';
 
 
 function App() {
@@ -24,6 +29,11 @@ function App() {
       <Routes>
         <Route path='/' exact element={<Home/>} />
         <Route path='/Nosprofils' element={<Nosprofils/>} />
+        <Route path='/Avis' element={<Avis/>} />
+        <Route path='/Disponibilite' element={<Disponibilite/>} />
+        <Route path='/Tarifs' element={<Tarifs/>} />
+        <Route path='/Localisation' element={<Localisation/>} />
+        <Route path='/Laisseravis' element={<Laisseravis/>} />
 
         <Route path='/Chimie' element={<Chimie/>} />
         <Route path='/Maths' element={<Maths/>} />
